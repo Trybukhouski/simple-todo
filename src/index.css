@@ -1,13 +1,104 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.wrapper {
+  width: 60vw;
+  margin: auto;
+  padding: 30px;
+  background-color: #e4e4e4;
+  border-radius: 10px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.title {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #000;
+  margin: 0 0 30px;
 }
+
+.task {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0 0 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #000;
+  background-color: #cacaca;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.task p {
+  margin: 0;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.task_done {
+  background-color: #ffffff;
+  color: #f96a6a;
+}
+
+.btn-set {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 15px;
+}
+
+.btn {
+  outline: none;
+  border: none;
+  background-color: #787878;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  background-color: #000;
+  color: #fff;
+  cursor: pointer;
+}
+
+.btn_red {
+  background-color: #db4c4c;
+  color: #fff;
+}
+
+.btn_grey {
+  background-color: #9f9f9f;
+}
+
+.btn_green {
+  background-color: #006722;
+  color: #fff;
+}
+
+.btn_black {
+  background-color: #000;
+  color: #fff;
+  padding: 0 30px;
+}
+
+.btn_black:hover {
+  background-color: #006722;
+}
+
+.new-task {
+  background-color: #9a9a9a;
+  padding: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 20px;
+  border-radius: 5px;
+}
+
+.task-input {
+  width: 100%;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+}
+/*# sourceMappingURL=index.css.map */
